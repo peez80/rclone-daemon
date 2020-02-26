@@ -3,6 +3,8 @@
 
 while true
 do
+    echo "------------ EXECUTE RCLONE: rclone $RCLONE_COMMAND ---------------"
     rclone $RCLONE_COMMAND
-    sleep 10
+    echo "SLEEPING $RCLONE_SLEEP"
+    sleep $RCLONE_SLEEP
 done

@@ -5,5 +5,5 @@ Control via ENV variables:
     RCLONE_COMMAND
     Arguments to pass to rclone
 
-    RCLONE_INTERVAL_MINUTES
-    Amount of minutes to sleep between two rclone runs
+    RCLONE_SLEEP
+    Sleep expression to sleep between rclone executes. e.g. 1m or 24h
