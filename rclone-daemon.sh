@@ -3,6 +3,9 @@
 
 THE_COMMAND="rclone $RCLONE_COMMAND"
 
+echo "Initially sleeping $INITIAL_SLEEP..."
+sleep $INITIAL_SLEEP
+
 while true
 do
     echo "------------ EXECUTE RCLONE: $THE_COMMAND ---------------"
